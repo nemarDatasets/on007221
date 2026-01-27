@@ -13,5 +13,8 @@
             "CodeURL": "https://mne.tools/mne-bids/"
         }
     ],
-    "License": "CC0"
+    "License": "CC0",
+    "Funding": [
+        "National Key Research and Development Program of China(2022YFF1202501)"
+    ]
 }
