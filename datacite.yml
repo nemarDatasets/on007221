@@ -1,0 +1,22 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Xinwei Sun
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0009-0005-0344-5472
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: DataCollector
+        order: 1
+    creators:
+      - name: Xinwei Sun
+        nameType: Personal
+        nameIdentifiers: *ref_0
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
