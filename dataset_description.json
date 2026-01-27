@@ -1,5 +1,5 @@
 {
-    "Name": "[Unspecified]",
+    "Name": "Cross-Sence Multi-Task MI EEG Dataset",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
@@ -12,5 +12,6 @@
             "Version": "0.17.0",
             "CodeURL": "https://mne.tools/mne-bids/"
         }
-    ]
+    ],
+    "License": "CC0"
 }
