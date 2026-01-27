@@ -53,6 +53,16 @@ data:
             schemeUri: https://orcid.org
         contributorType: DataCollector
         order: 5
+      - name: Xinwei Sun
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_5
+          - nameIdentifier: https://orcid.org/0009-0005-0344-5472
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: DataCollector
+        order: 6
     creators:
       - name: Xinwei Sun
         nameType: Personal
@@ -69,6 +79,9 @@ data:
       - name: Xinwei Sun
         nameType: Personal
         nameIdentifiers: *ref_4
+      - name: Xinwei Sun
+        nameType: Personal
+        nameIdentifiers: *ref_5
     descriptions:
       - description: N/A
         descriptionType: Abstract
