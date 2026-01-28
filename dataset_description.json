@@ -1,10 +1,13 @@
 {
     "Name": "Cross-Sence Multi-Task MI EEG Dataset",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
+    "BIDSVersion": "1.0.0",
+    "DatasetType": "EEG",
     "Authors": [
-        "[Unspecified1]",
-        "[Unspecified2]"
+        "Sun Xinwei",
+        "Wang Kun",
+        "Pan Lincong",
+        "Cao Yupei",
+        "Meng Lin"
     ],
     "GeneratedBy": [
         {
@@ -12,9 +15,5 @@
             "Version": "0.17.0",
             "CodeURL": "https://mne.tools/mne-bids/"
         }
-    ],
-    "License": "CC0",
-    "Funding": [
-        "National Key Research and Development Program of China(2022YFF1202501)"
     ]
 }
