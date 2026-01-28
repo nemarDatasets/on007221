@@ -1,85 +1,116 @@
-participant_id	source
-sub-01	graz
-sub-02	graz
-sub-03	graz
-sub-04	graz
-sub-05	graz
-sub-06	graz
-sub-07	graz
-sub-08	graz
-sub-09	graz
-sub-10	graz
-sub-11	graz
-sub-12	graz
-sub-13	graz
-sub-14	graz
-sub-15	ssmvepmi
-sub-16	ssmvepmi
-sub-17	ssmvepmi
-sub-18	ssmvepmi
-sub-19	ssmvepmi
-sub-20	ssmvepmi
-sub-21	ssmvepmi
-sub-22	ssmvepmi
-sub-23	ssmvepmi
-sub-24	ssmvepmi
-sub-25	ssmvepmi
-sub-26	ssmvepmi
-sub-27	ssmvepmi
-sub-28	ssmvepmi
-sub-29	ssmvepmi
-sub-30	ssmvepmi
-sub-31	ssmvepmi
-sub-32	ssmvepmi
-sub-33	ssmvepmi
-sub-34	ssmvepmi
-sub-35	ssmvepmi
-sub-36	ssmvepmi
-sub-37	hybrid
-sub-38	hybrid
-sub-39	hybrid
-sub-40	hybrid
-sub-41	hybrid
-sub-42	hybrid
-sub-43	hybrid
-sub-44	hybrid
-sub-45	hybrid
-sub-46	hybrid
-sub-47	hybrid
-sub-48	hybrid
-sub-49	hybrid
-sub-50	hybrid
-sub-51	hybrid
-sub-52	hybrid
-sub-53	hybrid
-sub-54	hybrid
-sub-55	hybrid
-sub-56	hybrid
-sub-57	hybrid
-sub-58	hybrid
-sub-59	hybrid
-sub-60	hybrid
-sub-61	hybrid
-sub-62	hybrid
-sub-63	hybrid
-sub-64	hybrid
-sub-65	hybrid
-sub-66	hybrid
-sub-67	hybrid
-sub-68	hybrid
-sub-69	hybrid
-sub-70	hybrid
-sub-71	hybrid
-sub-72	hybrid
-sub-73	hybrid
-sub-74	hybridonline
-sub-75	hybridonline
-sub-76	hybridonline
-sub-77	hybridonline
-sub-78	hybridonline
-sub-79	hybridonline
-sub-80	hybridonline
-sub-81	hybridonline
-sub-82	hybridonline
-sub-83	hybridonline
-sub-84	hybridonline
+participant_id	age	sex	dominant hand	source
+sub-01	23 	male	Right	graz
+sub-02	21 	female	Right	graz
+sub-03	23 	female	Right	graz
+sub-04	32 	female	Right	graz
+sub-05	22 	male	Right	graz
+sub-06	22 	male	Right	graz
+sub-07	24 	female	Right	graz
+sub-08	23 	male	Right	graz
+sub-09	23 	male	Right	graz
+sub-10	24 	female	Right	graz
+sub-11	24 	female	Right	graz
+sub-12	23 	female	Right	graz
+sub-13	23 	female	Right	graz
+sub-14	23 	female	Right	graz
+sub-15	23 	female	Right	ssmvepmi
+sub-16	23 	male	Right	ssmvepmi
+sub-17	23 	female	Right	ssmvepmi
+sub-18	23 	female	Right	ssmvepmi
+sub-19	23 	female	Right	ssmvepmi
+sub-20	24 	female	Right	ssmvepmi
+sub-21	24 	female	Right	ssmvepmi
+sub-22	23 	female	Right	ssmvepmi
+sub-23	23 	male	Right	ssmvepmi
+sub-24	24 	male	Right	ssmvepmi
+sub-25	23 	female	Right	ssmvepmi
+sub-26	23 	female	Right	ssmvepmi
+sub-27	23 	male	Right	ssmvepmi
+sub-28	22 	male	Right	ssmvepmi
+sub-29	23 	male	Right	ssmvepmi
+sub-30	23 	female	Right	ssmvepmi
+sub-31	24 	male	Right	ssmvepmi
+sub-32	23 	female	Right	ssmvepmi
+sub-33	21 	female	Right	ssmvepmi
+sub-34	22 	male	Right	ssmvepmi
+sub-35	24 	male	Right	ssmvepmi
+sub-36	20 	female	Right	ssmvepmi
+sub-37	22 	female	Right	hybrid
+sub-38	22 	female	Right	hybrid
+sub-39	23 	female	Right	hybrid
+sub-40	24 	female	Right	hybrid
+sub-41	23 	female	Right	hybrid
+sub-42	23 	female	Right	hybrid
+sub-43	22 	male	Right	hybrid
+sub-44	22 	male	Right	hybrid
+sub-45	22 	male	Right	hybrid
+sub-46	24 	female	Right	hybrid
+sub-47	24 	male	Right	hybrid
+sub-48	26 	female	Right	hybrid
+sub-49	22 	male	Right	hybrid
+sub-50	23 	male	Right	hybrid
+sub-51	21 	male	Right	hybrid
+sub-52	23 	female	Left	hybrid
+sub-53	24 	female	Right	hybrid
+sub-54	23 	female	Right	hybrid
+sub-55	23 	female	Right	hybrid
+sub-56	27 	male	Left	hybrid
+sub-57	23 	female	Right	hybrid
+sub-58	22 	male	Right	hybrid
+sub-59	23 	female	Right	hybrid
+sub-60	22 	female	Right	hybrid
+sub-61	21 	female	Right	hybrid
+sub-62	23 	female	Left	hybrid
+sub-63	25 	male	Right	hybrid
+sub-64	23 	male	Right	hybrid
+sub-65	24 	male	Right	hybrid
+sub-66	22 	female	Right	hybrid
+sub-67	24 	male	Right	hybrid
+sub-68	22 	male	Right	hybrid
+sub-69	22 	male	Right	hybrid
+sub-70	20 	female	Right	hybrid
+sub-71	22 	male	Right	hybrid
+sub-72	20 	female	Right	hybrid
+sub-73	24 	male	Right	hybrid
+sub-74	23 	male	Right	hybridonline
+sub-75	23 	female	Right	hybridonline
+sub-76	27 	male	Right	hybridonline
+sub-77	24 	female	Right	hybridonline
+sub-78	23 	male	Right	hybridonline
+sub-79	25 	female	Right	hybridonline
+sub-80	26 	female	Right	hybridonline
+sub-81	24 	female	Right	hybridonline
+sub-82	25 	male	Left	hybridonline
+sub-83	24 	female	Right	hybridonline
+sub-84	24 	female	Right	hybridonline
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
