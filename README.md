@@ -1,4 +1,4 @@
-# Cross-paradigm Motor Imagery & SSVEP EEG Dataset
+# Cross-Sence Multi-Task MI EEG Dataset
 
 Generated automatically on 2025-12-17 17:01:17 by `bids_chage.py`.
 
