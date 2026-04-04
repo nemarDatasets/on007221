@@ -55,6 +55,11 @@ Cross-subject decoding
 Cross-environment analysis
 Robustness evaluation under different recording conditions
 Benchmarking EEG signal processing methods
+# Citation
+If you use this dataset, please cite:
+Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset, Sun Xinwei, Wang Kun, Cao Yupei, OpenNeuro, Version 1.0.0  
+DOI: https://openneuro.org/datasets/ds007221
+A related manuscript describing this dataset is currently under review.
 
 # Notes
 The main dataset (84 participants) is designed for systematic analysis across environments.The space station dataset is provided as a supplementary resource due to its different acquisition setup and limited sample size.
