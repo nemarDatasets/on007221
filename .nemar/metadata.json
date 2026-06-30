@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset",
+  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across two controlled environments (laboratory and simulated hospital), with a supplementary cohort of 3 participants recorded in microgravity conditions aboard a space station. The main dataset includes multiple motor imagery paradigms (Graz, SSMVEP-MI, and hybrid variants) with 69-channel EEG recordings (64-channel system with 60 channels used plus 9 derived channels) at 1000 Hz sampling rate, designed to investigate environmental effects on brain-computer interface performance and enable cross-environment robustness evaluation. The space station supplementary dataset employs a different acquisition setup (EGGO system with 32 dry electrodes) and is provided as a separate resource due to its distinct methodology and limited sample size.",
+  "methods_description": "Main Dataset: EEG data were collected using a 64-channel system following the 10-20 electrode placement system with 60 channels used in acquisition and 9 additional derived channels included in analysis (69 channels total). Recordings were acquired at 1000 Hz sampling rate in two distinct environments: electromagnetically shielded laboratory and simulated hospital with multi-sensory elements. Motor imagery tasks included left-hand, right-hand, and feet movements with standardized trial structure (cue: -2 to 0 s, task: 0 to 4 s, rest: 4 s). Data were organized in BIDS format. Space Station Supplementary Dataset: Employed an EGGO system with 32 dry electrodes in microgravity conditions, stored as MATLAB files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,60 @@
     "Cao Yupei": {},
     "Meng Lin": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007221.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
+    {
+      "term": "motor imagery",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "cross-environment analysis"
+    },
+    {
+      "term": "environmental variability"
+    },
+    {
+      "term": "cross-environment robustness"
+    },
+    {
+      "term": "Graz paradigm"
+    },
+    {
+      "term": "SSMVEP-MI (Steady-State Motor Imagery Visual Evoked Potential)"
+    },
+    {
+      "term": "hybrid paradigm"
+    },
+    {
+      "term": "space station"
+    },
+    {
+      "term": "microgravity EEG"
+    },
+    {
+      "term": "robustness evaluation"
+    },
+    {
+      "term": "neuroscience"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "environmental effects"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007221",
       "identifier_type": "URL",
@@ -26,15 +76,25 @@
       "identifier": "https://nemar.org/dataset/on007221",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007221.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007221",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "153.2 GB (4333 files)"
   ],
   "formats": [
     ".eeg",
@@ -47,50 +107,10 @@
     ".vmrk",
     ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across multiple controlled environments (laboratory, simulated hospital, and space station), with a supplementary cohort of 3 participants recorded in microgravity conditions. The dataset includes multiple motor imagery paradigms (Graz, SSMVEP-MI, and hybrid variants) designed to investigate the impact of environmental variability on brain-computer interface performance and EEG signal robustness. Motor imagery tasks include left-hand, right-hand, and feet movements.",
-  "methods_description": "EEG recordings were acquired using 64-channel systems (10-20 electrode placement, 69 channels recorded) at 1000 Hz sampling rate in the main dataset. Raw data were sampled at 1000 Hz and subsequently processed at 250 Hz. Motor imagery tasks included left-hand, right-hand, and feet movements with a standardized trial structure (cue: -2 to 0 s, task: 0 to 4 s). The space station supplementary dataset used a 32-channel dry electrode EGGO system and included resting state periods. Data were organized in BIDS format for the main dataset and stored as MATLAB .mat files for the space station recordings.",
-  "keywords": [
+  "funding_references": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "cross-environment analysis"
-    },
-    {
-      "term": "signal robustness"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "microgravity"
-    },
-    {
-      "term": "space environment"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "Graz paradigm"
-    },
-    {
-      "term": "SSMVEP-MI"
-    },
-    {
-      "term": "dry electrodes"
-    },
-    {
-      "term": "EGGO system"
+      "funder_name": "Not externally funded"
     }
   ],
-  "source_hash": "10dbb5714e3538ccea1f948ed04b1ddf147d7d9f2196f90d18a1df7c6e3159be"
+  "source_hash": "b1bcf7b4b38694d58eeddfe3aa35a132f9ded51bc7849003dac68cab115b7b53"
 }
