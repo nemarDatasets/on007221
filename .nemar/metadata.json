@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007221",
-  "source": "openneuro",
-  "source_id": "ds007221",
+  "pipeline_stage": "enriched",
   "title": "Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Sun Xinwei": {},
     "Wang Kun": {},
@@ -11,21 +11,86 @@
     "Cao Yupei": {},
     "Meng Lin": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007221.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007221",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007221",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across multiple controlled environments (laboratory, simulated hospital, and space station), with a supplementary cohort of 3 participants recorded in microgravity conditions. The dataset includes multiple motor imagery paradigms (Graz, SSMVEP-MI, and hybrid variants) designed to investigate the impact of environmental variability on brain-computer interface performance and EEG signal robustness. Motor imagery tasks include left-hand, right-hand, and feet movements.",
+  "methods_description": "EEG recordings were acquired using 64-channel systems (10-20 electrode placement, 69 channels recorded) at 1000 Hz sampling rate in the main dataset. Raw data were sampled at 1000 Hz and subsequently processed at 250 Hz. Motor imagery tasks included left-hand, right-hand, and feet movements with a standardized trial structure (cue: -2 to 0 s, task: 0 to 4 s). The space station supplementary dataset used a 32-channel dry electrode EGGO system and included resting state periods. Data were organized in BIDS format for the main dataset and stored as MATLAB .mat files for the space station recordings.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "cross-environment analysis"
+    },
+    {
+      "term": "signal robustness"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "microgravity"
+    },
+    {
+      "term": "space environment"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "Graz paradigm"
+    },
+    {
+      "term": "SSMVEP-MI"
+    },
+    {
+      "term": "dry electrodes"
+    },
+    {
+      "term": "EGGO system"
+    }
+  ],
+  "source_hash": "10dbb5714e3538ccea1f948ed04b1ddf147d7d9f2196f90d18a1df7c6e3159be"
 }
