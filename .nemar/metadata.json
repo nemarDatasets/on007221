@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset",
-  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across multiple controlled environments (laboratory and simulated hospital), with a supplementary cohort of 3 participants recorded in microgravity conditions in a space station environment. The dataset includes multiple motor imagery paradigms (Graz, SSMVEP-MI, and hybrid variants) with 64-channel EEG recordings at 1000 Hz sampling rate (69 channels acquired, 60 channels used in analysis), designed to investigate environmental effects on brain-computer interface performance and enable cross-environment robustness evaluation. This dataset is a republication of OpenNeuro ds007221 on the NEMAR platform to enhance accessibility and discoverability within the neuroimaging research community.",
-  "methods_description": "EEG data were collected using a 64-channel system following the 10-20 electrode placement system (69 channels acquired, 60 channels used in analysis) at 1000 Hz sampling rate in the main dataset. Motor imagery tasks included left-hand, right-hand, feet, and rest conditions organized in trials with cue periods (−2 to 0 s), task periods (0 to 4 s), and rest periods (4 s). Recordings were conducted in two distinct environments in the main dataset: electromagnetically shielded laboratory and simulated hospital with multi-sensory elements. The supplementary space station dataset employed an EGGO system with 32 dry electrodes and was recorded in microgravity conditions.",
+  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across multiple paradigms (Graz motor imagery, SSMVEP-MI, and hybrid video/SSVideo paradigms) in two distinct recording environments: a controlled electromagnetically shielded laboratory and a simulated multi-sensory hospital setting. A supplementary dataset from 3 participants recorded in a space station environment is also included, extending the study to microgravity conditions. The dataset is intended to support research on cross-environment robustness, cross-subject decoding, and benchmarking of EEG-based brain-computer interface algorithms.",
+  "methods_description": "EEG was recorded using a 64-channel system following the 10-20 electrode arrangement (60 channels used) at a sampling rate of 1000 Hz (raw) and 250 Hz (processed) for the main laboratory and hospital datasets. Each trial included a cue period (-2 to 0 s), a task period (0 to 4 s), and a rest period (4 s). The supplementary space station dataset was recorded using a 32-channel dry-electrode EGGO system and stored in MATLAB .mat format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,7 +15,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "motor imagery"
@@ -29,25 +31,10 @@
       "term": "cross-environment analysis"
     },
     {
-      "term": "Graz paradigm"
+      "term": "SSMVEP paradigm"
     },
     {
-      "term": "environmental variability"
-    },
-    {
-      "term": "signal processing"
-    },
-    {
-      "term": "microgravity"
-    },
-    {
-      "term": "sensorimotor"
-    },
-    {
-      "term": "BCI robustness"
-    },
-    {
-      "term": "BIDS"
+      "term": "space station EEG"
     }
   ],
   "related_identifiers": [
