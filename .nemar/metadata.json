@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Cross-Environment Multi-Paradigm Motor Imagery EEG Dataset",
-  "description": "This dataset comprises EEG recordings from 84 healthy participants performing motor imagery tasks across multiple paradigms (Graz motor imagery, SSMVEP-MI, and hybrid video/SSVideo paradigms) in two distinct recording environments: a controlled electromagnetically shielded laboratory and a simulated multi-sensory hospital setting. A supplementary dataset from 3 participants recorded in a space station environment is also included, extending the study to microgravity conditions. The dataset is intended to support research on cross-environment robustness, cross-subject decoding, and benchmarking of EEG-based brain-computer interface algorithms.",
-  "methods_description": "EEG was recorded using a 64-channel system following the 10-20 electrode arrangement (60 channels used) at a sampling rate of 1000 Hz (raw) and 250 Hz (processed) for the main laboratory and hospital datasets. Each trial included a cue period (-2 to 0 s), a task period (0 to 4 s), and a rest period (4 s). The supplementary space station dataset was recorded using a 32-channel dry-electrode EGGO system and stored in MATLAB .mat format.",
+  "description": "This dataset contains EEG recordings from motor imagery (left- and right-hand) tasks collected in different recording environments. The main dataset covers 84 healthy participants in a shielded laboratory and a simulated hospital environment, and is intended to study how environmental variability affects EEG-based brain-computer interface performance. A small supplementary dataset from 3 participants recorded in a space station environment extends the collection to a non-terrestrial, microgravity setting. Multiple paradigms are included: Graz, SSMVEP-MI, and hybrid video conditions.",
+  "methods_description": "The main dataset was recorded with a 64-channel EEG system (10-20 layout; 60 channels used) at 1000 Hz raw and 250 Hz processed. Each trial had a 2 s cue period, a 4 s task period, and a 4 s rest period. Paradigms were Graz motor imagery, SSMVEP-MI, and hybrid video conditions. The supplementary space station data were recorded with a 32-channel dry-electrode EEGO system and stored as MATLAB .mat files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,9 +15,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "motor imagery"
@@ -25,16 +23,17 @@
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "cross-environment analysis"
+      "term": "cross-environment decoding"
     },
     {
-      "term": "SSMVEP paradigm"
+      "term": "SSMVEP"
     },
     {
-      "term": "space station EEG"
+      "term": "space station"
     }
   ],
   "related_identifiers": [
@@ -70,7 +69,7 @@
     "eeg"
   ],
   "sizes": [
-    "153.2 GB (4333 files)"
+    "143 GB (4333 files)"
   ],
   "formats": [
     ".eeg",
